@@ -1,54 +1,49 @@
 body {
-    background: linear-gradient(to right, #ffffffd9, #f06363d0);
-    display: flex table-column;
-    align-content: center;
-    text-align: center;
-    align-items: center;
-    padding: auto;
-    
-    
-    
+  background: linear-gradient(to right, #ffffffd9, #f06363d0);
+  display: flex table-column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  padding: auto;
 }
 
 .pokemon {
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    letter-spacing: 5;
+  letter-spacing: 5;
 }
 
-.pokeconteiner {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
-    
-
+.pokeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
 }
-.pokemon{
-    background-color: rgba(255, 255, 255, 0.774);
-    border-radius: 5px;
-    box-shadow:0 5px 15px rgba(100, 100, 100, 0.5);
-    margin: 10px;
-    padding: 30px;
+.pokemon {
+  background-color: rgba(255, 255, 255, 0.774);
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(100, 100, 100, 0.5);
+  margin: 10px;
+  padding: 30px;
 }
-.imagemconteiner{
-    background-color: rgb(214, 214, 214);
-    border-radius: 50px;
+.imagemconteiner {
+  background-color: rgb(214, 214, 214);
+  border-radius: 50px;
 }
-.info{
-    margin-top: 10px;
-    margin: 0px;
-    padding: 10px;
+.info {
+  margin-top: 10px;
+  margin: 0px;
+  padding: 10px;
 }
-.numero{
-    background-color: rgba(236, 184, 184, 0.85);
-    border-radius: 5px;
-    padding: 5px 10px;
+.numero {
+  background-color: rgba(236, 184, 184, 0.85);
+  border-radius: 5px;
+  padding: 5px 10px;
 }
